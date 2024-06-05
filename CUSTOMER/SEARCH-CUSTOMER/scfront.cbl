@@ -7,13 +7,11 @@
        01  ERROR-MESSAGE PIC X(100).
        01  RESULT PIC X(100).
        01  WS-CUSTOMER-DATA.
-           05  CUSTOMER-FIRSTNAME PIC X(50).
-           05  CUSTOMER-LASTNAME PIC X(50).
+           05  CUSTOMER-FIRSTNAME PIC X(20).
+           05  CUSTOMER-LASTNAME PIC X(20).
            05  CUSTOMER-BIRTHDATE.
                10 BIRTHDATE-DAYS PIC X(2).
-               10 FILLER PIC X VALUE "/".
                10 BIRTHDATE-MONTH PIC X(2).
-               10 FILLER PIC X VALUE "/".
                10 BIRTHDATE-YEAR PIC X(4).
            05  CUSTOMER-CODE-SECU.
                10 CODE-SECU-1 PIC X.

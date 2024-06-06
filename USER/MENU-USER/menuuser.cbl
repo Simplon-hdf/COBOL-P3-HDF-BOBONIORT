@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. menuuser.cbl.
+       PROGRAM-ID. menuuser.
        AUTHOR.safaa.
 
       ******************************************************************

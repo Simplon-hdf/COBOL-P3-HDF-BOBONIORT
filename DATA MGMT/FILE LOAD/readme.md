@@ -14,3 +14,5 @@ Le script IND-UPDATE.sql doit être dans le même répertoire que l'éxecutable.
 cffront affiche le chemin complet de individus.csv et demande de valider le chargement.
 cfback crée la table bobo_customer, charge le fichier individus.csv dans la table, exécute le script IND-UPDATE.sql, revient au menu data.
 Pour l'exécution du script SQL, l'utilisateur doit saisir le mot de passe de la base de données.
+le script ind-update.sql charge les informations manquante dans bobo_customer (ville, code-secu), reformate les champs téléphone et date de naissance dans bobo_customer,
+charge les enregistrements de la table bobo_customer dans la table customer.

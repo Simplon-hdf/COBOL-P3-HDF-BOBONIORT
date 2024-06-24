@@ -20,7 +20,7 @@
 
 
       *    [SK] Bouton retour au menu.
-           05 FILLER PIC X(01) TO WS-MENU-RETURN LINE 34 COL 170 
+           05 FILLER PIC X(01) USING WS-MENU-RETURN LINE 34 COL 170 
            BACKGROUND-COLOR IS 2
            FOREGROUND-COLOR IS 0. 
            05 FILLER PIC X(14) VALUE 'Retour' LINE 34 COL 172 

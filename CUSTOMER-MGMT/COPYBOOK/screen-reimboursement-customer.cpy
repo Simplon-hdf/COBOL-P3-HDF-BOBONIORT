@@ -4,14 +4,13 @@
       ******************************************************************
       *    [SK] TITRE.                                                 *
       ******************************************************************
-           05 FILLER PIC X(22) VALUE 'REMBOURSEMENT DE L ADHERENT' 
+           05 FILLER PIC X(27) VALUE "REMBOURSEMENT DE L'ADHERENT" 
            LINE 6 COL 88 
            FOREGROUND-COLOR IS 2. 
 
       ******************************************************************
       *    [SK] CHAMPS DE SAISIS.                                      *
       ******************************************************************
-
 
       *    [SK] zone message d'erreur.
            05 FILLER PIC X(70) FROM WS-ERROR-MESSAGE 
@@ -33,8 +32,6 @@
       *    [SK] Bordure du haut pour le cadre.
            05 FILLER PIC X(88) VALUE ALL SPACES LINE 15 COL 56 
            BACKGROUND-COLOR IS 4.
-
-=
 
            05 FILLER PIC X(02) VALUE ALL SPACES LINE 16 COL 56 
            BACKGROUND-COLOR IS 4.        

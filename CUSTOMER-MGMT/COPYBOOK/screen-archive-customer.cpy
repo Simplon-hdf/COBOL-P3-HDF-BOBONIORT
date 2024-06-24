@@ -37,7 +37,7 @@
            LINE 22 COL 65
            FOREGROUND-COLOR IS 2. 
 
-           05 FILLER PIC X(01) TO WS-ACCEPT 
+           05 FILLER PIC X(01) USING WS-ACCEPT 
            LINE 22 COL 90
            BACKGROUND-COLOR IS 2
            FOREGROUND-COLOR IS 0. 
@@ -48,7 +48,7 @@
            FOREGROUND-COLOR IS 8.
 
       *    [SK-AL] Bouton retour au menu.
-           05 FILLER PIC X(01) TO LK-RETURN-CHOICE 
+           05 FILLER PIC X(01) USING LK-RETURN-CHOICE 
            LINE 34 COL 170 
            BACKGROUND-COLOR IS 2
            FOREGROUND-COLOR IS 0. 

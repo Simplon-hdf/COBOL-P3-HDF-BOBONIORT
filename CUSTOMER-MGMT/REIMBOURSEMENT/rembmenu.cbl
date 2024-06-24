@@ -72,7 +72,7 @@
        2100-START-CHECK-CHOICE.
            IF FUNCTION UPPER-CASE(WS-MENU-RETURN)
               EQUAL 'O' THEN
-               CALL 'manacust'
+               CALL 'mcfront' USING LK-CUS-UUID
            ELSE  
               MOVE 'Veuillez entrer "O" pour confirmer.' 
               TO WS-ERROR-MESSAGE
